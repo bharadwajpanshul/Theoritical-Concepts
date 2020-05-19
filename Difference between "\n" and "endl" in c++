@@ -1,0 +1,5 @@
+The only difference between them is that 
+endl causes a flushing of the output buffer every time it is called, whereas \n does not. 
+so \n only changes the line 
+but
+endl flushes out the bytes whenever it is called.
