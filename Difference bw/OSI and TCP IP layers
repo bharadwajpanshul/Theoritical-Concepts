@@ -1,0 +1,28 @@
+OSI model :
+APPLICATION LAYER
+PRESENTATION LAYER 
+SESSION LAYER
+TRANSPORT LAYER
+NETWORK LAYER
+DATA LINK LAYER
+PHYSICAL LAYER
+
+TCP/IP model :
+APPLICATION LAYER (covers A.P.S of OSI)
+TRANSPORT LAYER 
+INTERNET LAYER (covers network layer of OSI)
+NETWORK ACCESS LAYER  (covers D.P)
+
+1. OSI has 7 layers whereas TCP/IP has 4 layers.
+2. The OSI Model is a logical and conceptual model that defines network communication used by systems open to interconnection and
+communication with other systems. On the other hand, TCP/IP helps you to determine how a specific computer should be connected 
+to the internet and how you can be transmitted between them.
+3. OSI header is 5 bytes whereas TCP/IP header size is 20 bytes.
+4. OSI refers to Open Systems Interconnection whereas TCP/IP refers to Transmission Control Protocol.
+5. OSI follows a vertical approach whereas TCP/IP follows a horizontal approach.
+6. OSI model, the transport layer, is only connection-oriented whereas the TCP/IP model is both connection-oriented and 
+connectionless.
+7. OSI model is developed by ISO (International Standard Organization), whereas TCP Model is developed by ARPANET
+  (Advanced Research Project Agency Network).
+8. OSI model helps you to standardize router, switch, motherboard, and other hardware whereas TCP/IP helps you to establish
+   a connection between different types of computers.
