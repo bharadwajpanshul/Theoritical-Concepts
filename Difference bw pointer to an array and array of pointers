@@ -1,0 +1,53 @@
+Pointer to an array: (array pointer)
+We will use the pointers to access the components of array syntaxing will be like 
+datatype(*variable name)[size of arr];
+example - int *ptr[5] = NULL;
+let us take a look at an example :
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+   int (*ptr)[5];
+   int b[5] = { 1, 2, 3, 4, 5};
+  int i=0;
+    ptr = &b;
+   
+   for(i=0;i<5;i++)
+   {
+     cout<< *(*ptr + i);
+   }
+   return 0;
+}
+O/P = 1 2 3 4 5
+
+ARRAY OF POINTERS: (Pointer array)
+It is the array of pointer variables
+int *variablename[arraysize];
+int *ptr[5];
+Example :
+
+#include <stdio>
+  
+const int size = 4; 
+  
+void main() 
+{ 
+  
+    char* names[] = { 
+        "amit", 
+        "amar", 
+        "ankit", 
+        "akhil"
+    }; 
+  
+    int i = 0; 
+  
+    for (i = 0; i < size; i++) { 
+        printf("%s\n", names[i]); 
+    } 
+} 
+
+
