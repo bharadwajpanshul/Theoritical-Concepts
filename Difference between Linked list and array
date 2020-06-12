@@ -1,0 +1,18 @@
+So when we talk about the difference between the linked list and array
+the biggest difference between them is that array follows static memory allocation
+and linked list on other hand follows dynamically memory allocation,
+
+In array there will always be a limited or fixed size
+but in linked list there is no fixed size.
+
+Insertion/Deletion is easy in LL but on other hand. it takes a lot of efforts in array
+
+ Linked list provides following two advantages over arrays
+1) Dynamic size
+2) Ease of insertion/deletion
+
+Linked lists have following drawbacks
+1) Random access is not allowed. We have to access elements sequentially starting from the first node. So we cant do
+binary search with linked lists.
+2) Extra memory space for a pointer is required with each element of the list.
+3) Arrays have better cache locality that can make a pretty big difference in performance.
