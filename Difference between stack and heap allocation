@@ -1,0 +1,2 @@
+Heap memory is used by all part of application but stack memory is used only by one thread execution.
+Stack memory can be accessed directly as it is statically allocated. Heap memory is accessed indirectly as the size is decided at the runtime so it is dynamic.
