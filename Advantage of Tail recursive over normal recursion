@@ -1,0 +1,23 @@
+when the caller has to do something more after the child call then its not tail recursive,
+and if the caller has nothing to do after the child call, then it is tail recursive.
+
+Program with no tail recursive
+void fun(int n)
+{
+if(n==0)
+return;
+fun(n-1);
+print(n);
+}
+Program with tail recursive
+void fun(int n,int k)
+{
+if(n==0)
+return;
+print(k);
+fun(n-1,k+1);
+} //equivalent tail recursive
+
+Not all not tail recursive fns can be converted in tail recursive by adding extra parameteres ...  for example merge sort 
+
+
